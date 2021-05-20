@@ -11,7 +11,7 @@ const Table = () => {
             .then((response) => {
                 setGetData(response.data);
             });
-    })
+    }, [])
     return (
         <MaterialTable
             title="TO DO List"
